@@ -2,7 +2,7 @@
 // This file centralizes API endpoint configuration
 // In production, VITE_API_BASE_URL should be set in environment variables
 
-export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:5000";
+export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:5000" || "https://staynear-app-backend.onrender.com";
 
 export const API_ENDPOINTS = {
   AUTH: {

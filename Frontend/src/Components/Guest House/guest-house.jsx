@@ -34,7 +34,7 @@ const GuestHouses = () => {
   const [transactionIds, setTransactionIds] = useState({});
   const placeholderImage = "https://via.placeholder.com/400x300?text=No+Image";
   const resultsRef = useRef(null);
-  const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:5000";
+  const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:5000"|| "https://staynear-app-backend.onrender.com";
   const today = new Date().toISOString().split("T")[0];
   const calculateNights = () => {
     if (!checkIn || !checkOut) return 0;
